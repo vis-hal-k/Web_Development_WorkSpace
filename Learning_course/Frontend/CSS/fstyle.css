@@ -1,0 +1,41 @@
+.green-text {
+    color: green;
+}
+
+.underline-h {
+    text-decoration: underline;
+}
+
+#p3 {
+    color: blue;
+}
+
+#color-box {
+    background-color: green;
+    color: white;
+    width: 500px;
+    height: 500px;
+    height: 900px;
+    opacity: 0.5;
+    filter: grayscale(100%);
+    filter: hue(90deg);
+    border: 1px solid gray;
+}
+
+#gradient {
+    height: 500px;
+    border: 1px solid grey;
+    background-image: linear-gradient(green, blue);
+    background-image: linear-gradient(green, blue, red);
+    background-image: linear-gradient(to right, green, blue);
+    background-image: linear-gradient(to bottom, green, blue);
+    background-image: linear-gradient(90deg, green, blue);
+}
+
+#overflow {
+    color: black;
+    border: 1.5px solid red;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+}
